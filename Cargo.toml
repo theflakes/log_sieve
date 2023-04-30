@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+regex = "*"
+yaml-rust = "*"
+opensearch = "*"
+serde = "*"
+serde_json = "*"
+tokio = { version = "*", features = ["full"] }
